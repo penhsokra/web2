@@ -1,0 +1,35 @@
+{
+    "name": "tab_menu",
+    "short_name": "tab_menu",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "QR Menu & Food Ordering App Our app provides a seamless dining experience by allowing customers to scan a QR code at a restaurant and instantly access the digital menu. Users can browse food items, view detailed descriptions, and place orders directly from their smartphones—eliminating the need for physical menus or waiting for a server.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
