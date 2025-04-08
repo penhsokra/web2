@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-    <!-- <base href="/"> -->
+    <!-- <base href="/" /> -->
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
@@ -106,18 +106,14 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
       name="viewport"
     />
+    <!-- cropperjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
   </head>
   <body style="max-width: 430px; margin: 0 auto">
     <script src="flutter_bootstrap.js" async=""></script>
-
-    <!-- Required for Firebase JS SDKs on web -->
-    <script
-      nomodule
-      src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"
-    ></script>
-    <script
-      nomodule
-      src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"
-    ></script>
   </body>
 </html>
